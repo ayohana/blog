@@ -7,6 +7,11 @@ p {
   line-height: 1.5;
 }
 
+h1:hover {
+  transform: translateX(400px);
+  transition: 2s ease-in;
+}
+
 .journal h2 {
   text-transform: uppercase;
 }
@@ -42,4 +47,14 @@ p {
 .column {
   width: 300px;
   float: left;
+}
+
+.columns .column:nth-child(1) {
+  background-color: red;
+}
+.columns .column:nth-child(2) {
+  background-color: blue;
+}
+.columns .column:nth-child(3) {
+  background-color: green;
 }
